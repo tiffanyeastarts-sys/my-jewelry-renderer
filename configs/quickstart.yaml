@@ -1,0 +1,19 @@
+# 试跑配置：2 种金属 × 1 种宝石 × 1 个视角 = 2 张图，用来验证链路是否通
+piece:
+  name: "试跑-素圈镶钻"
+  description: "简约素圈戒指，正面单颗小钻，四爪镶嵌，戒臂为圆润素面"
+
+metals:
+  - yellow_gold
+  - white_gold
+
+gems:
+  - round_brilliant
+
+angles:
+  - front
+
+variants_per_combo: 1
+size: "1024x1024"
+ratio: "1:1"
+out_dir: "output"

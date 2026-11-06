@@ -1,0 +1,26 @@
+# 示例：吊坠项链，偏产品图（不带人物）
+piece:
+  name: "水滴蓝宝石吊坠"
+  description: "水滴形切割蓝宝石吊坠，四爪镶嵌，外围一圈密钉小钻围镶，链身为十字链"
+  style: "高端珠宝产品摄影，深色丝绒与浅色石材两种台面布光，柔光箱侧逆光"
+  background: "柔和的珍珠白台面，带极淡的投影"
+  extra_prompt: "吊坠正面朝向镜头，链条自然垂落但保持舒展，不要出现人体或衣料"
+
+metals:
+  - white_gold
+  - rose_gold
+
+gems:
+  - key: oval_sapphire
+    zh: 椭圆形切割皇家蓝蓝宝石
+  - aquamarine
+  - pearl
+
+angles:
+  - front
+  - top45
+
+variants_per_combo: 2
+size: "2048x2048"
+ratio: "3:4"
+out_dir: "output"

@@ -1,0 +1,29 @@
+# 示例：单石戒指，一套设计打成 4 种金属 × 3 种宝石 × 3 个视角
+piece:
+  name: "光环六爪钻戒"
+  description: "六爪镶嵌的单石戒指，爪尖收细略向内包，戒臂为内弧抛光弧面，两侧各缀一颗小钻"
+  style: "高端珠宝商业产品摄影，棚拍三点柔光，微距镜头，浅景深但产品通体清晰"
+  background: "无缝浅灰渐变背景，底部有柔和的接触阴影与轻微倒影"
+  extra_prompt: "整体比例符合真实戒指的实际尺寸，主石与戒圈大小比例协调"
+
+metals:
+  - yellow_gold
+  - white_gold
+  - rose_gold
+  - platinum
+
+gems:
+  - round_brilliant
+  - key: oval_sapphire
+    zh: 椭圆形切割皇家蓝蓝宝石
+  - emerald_cut
+
+angles:
+  - front
+  - top45
+  - macro_detail
+
+variants_per_combo: 1
+size: "2048x2048"
+ratio: "1:1"
+out_dir: "output"
